@@ -15,10 +15,10 @@ Like so:
 Repeat for each part you want to generate an icon for in the following `ce_page_icongen_page01_parts.prop.prop_t, ce_page_icongen_page02_parts.prop.prop_t, ce_page_icongen_page03_parts.prop.prop_t,` etc... To make part icon generation faster, feel free to drop your rigblock and model files in their respective folders.
 
 
-Contains a python script (3.9.0) to reset the page files as well so you don't have to manually go through each one to clear them out, and can be modified to change how many template files you want to generate or even the specifics or dimensions you want the corresponding part icons to come out at, it's currently set to export within the range of 500x500 (dimensions may vary based on monitor size and part dimensions). The only files that will be reset by the script are those in `creature_editor_palette_items~`, `creature_editor_palette_pages~` and `creature_editor_palette_~`.
+Contains a python script (requires at least 3.9.0) to reset the page files as well so you don't have to manually go through each one to clear them out, and can be modified to change how many template files you want to generate or even the specifics or dimensions you want the corresponding part icons to come out at, it's currently set to export within the range of 500x500 (dimensions may vary based on monitor size and part dimensions). The only files that will be reset by the script are those in `creature_editor_palette_items~`, `creature_editor_palette_pages~` and `creature_editor_palette_~`.
 
 
 Be sure to take a look at [emd4600's part icon tutorial](https://github.com/emd4600/SporeModder-FX/wiki/How-to:-Generate-perfect-part-thumbnails "How to: Generate perfect part thumbnails") for the specifics and the console command.
 
 
-Requires the [ModCreatorKit](https://github.com/emd4600/Spore-ModAPI/tree/master/Projects/Example%20Projects/ModCreatorKit#modcreatorkit "ModCreatorKit") and the [Spore ModAPI Launcher](http://davoonline.com/sporemodder/rob55rod/ModAPI/Public/ "Spore ModAPI Launcher") and obviously the above mentioned SporeModder FX tool.
+Requires the [ModCreatorKit](https://github.com/emd4600/Spore-ModAPI/tree/master/Projects/Example%20Projects/ModCreatorKit#modcreatorkit "ModCreatorKit"), [Spore ModAPI Launcher](http://davoonline.com/sporemodder/rob55rod/ModAPI/Public/ "Spore ModAPI Launcher") and obviously the above mentioned SporeModder FX tool.
